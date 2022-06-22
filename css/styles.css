@@ -1,9 +1,32 @@
 :root {
   --brand-color: blue;
 }
-.link:hover {
-  color: var(--brand-color);
+body {
+  color: #212121;
+  font-family: roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.03em;
 }
+/* logo */
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+
+.link:hover,
 .link:focus {
   color: var(--brand-color);
+}
+.link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2px;
+}
+.button {
+  cursor: pointer;
 }
