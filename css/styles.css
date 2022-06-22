@@ -1,0 +1,9 @@
+:root {
+  --brand-color: blue;
+}
+.link:hover {
+  color: var(--brand-color);
+}
+.link:focus {
+  color: var(--brand-color);
+}
