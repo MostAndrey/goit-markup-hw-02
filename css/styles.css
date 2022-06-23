@@ -1,83 +1,137 @@
 :root {
-  --brand-color: blue;
+  --brand-color: #2196f3;
   /* body */
+}
+ul {
+  list-style-type: none;
 }
 body {
   color: #212121;
   font-family: roboto, sans-serif;
   font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
   letter-spacing: 0.03em;
 }
 
-/* font size */
-
-p {
-  font-weight: 400;
-}
-.page-title {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 60px;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-}
+/* Логотип WebStudio */
 .logo {
-  font-family: Raleway, sans-serif;
+  color: #000000;
+  font-family: "Raleway";
+  text-decoration: none;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
 }
-.title {
+.logo > span {
+  color: #2196f3;
+}
+/* навигация */
+.nav {
+  color: #212121;
+  text-decoration: none;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-}
-.heading-list {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 42px;
-  text-align: center;
-}
-.list {
-  font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.nav.current {
+  color: #2196f3;
+}
+.nav:hover,
+.nav:focus {
+  color: #2196f3;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+/* Заголовок h1 h2 */
+.header {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
 }
-.link:hover,
-.link:focus {
-  color: var(--brand-color);
+.heading-list {
+  color: #212121;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
-.link {
+/* кнопка ховер фокус */
+button {
+  color: #212121;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+.button-filter:hover,
+.button-filter:focus {
+  color: #ffffff;
+  background-color: var(--brand-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+}
+/* имена Команды страница 1 */
+.names {
+  color: #212121;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+.address-footer {
+  color: #212121;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+/* адрес */
+
+.address:hover,
+.address:focus {
+  color: var(--brand-color);
+  cursor: pointer;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.2px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
-.button-first {
-  cursor: pointer;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 30px;
-  letter-spacing: 0.06em;
-}
-.button {
+.address {
+  color: #757575;
+  text-decoration: none;
+  font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
-.h2 {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 36px;
-}
-
-.footer {
+.location {
+  /* color: #ffffff; */
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
+  letter-spacing: 0.03em;
 }
-/* --- */
+/* футер */
+/* .footer {
+  background: #2f303a; */
