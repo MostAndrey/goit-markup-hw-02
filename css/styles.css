@@ -1,5 +1,6 @@
 :root {
   --brand-color: blue;
+  /* body */
 }
 body {
   color: #212121;
@@ -9,7 +10,20 @@ body {
   line-height: 26px;
   letter-spacing: 0.03em;
 }
-/* logo */
+
+/* font size */
+
+p {
+  font-weight: 400;
+}
+.page-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
 .logo {
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -17,7 +31,23 @@ body {
   line-height: 31px;
   letter-spacing: 0.03em;
 }
-
+.title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+.heading-list {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+}
+.list {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+}
 .link:hover,
 .link:focus {
   color: var(--brand-color);
@@ -27,6 +57,27 @@ body {
   font-size: 14px;
   line-height: 1.2px;
 }
-.button {
+.button-first {
   cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
 }
+.button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+}
+.h2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+}
+
+.footer {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+/* --- */
