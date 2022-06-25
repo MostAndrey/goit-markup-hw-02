@@ -4,6 +4,7 @@
   --grey-color: #757575;
   --web-color: #000000;
   --white-color: #ffffff;
+  --background-color: #2f303a;
   /* body */
 }
 ul {
@@ -21,11 +22,10 @@ body {
 .logo {
   color: var(--web-color);
   font-family: "Raleway";
-  text-decoration: none;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
+  text-decoration: none;
 }
 .logo > span {
   color: var(--blue-color);
@@ -37,7 +37,6 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
 }
 .logo-footer > span {
   color: var(--white-color);
@@ -64,9 +63,7 @@ body {
 /* Заголовок h1 */
 .header {
   color: var(--white-color);
-  background-color: #2f303a;
-  font-family: "Roboto";
-  font-style: normal;
+  background-color: var(--background-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -76,35 +73,26 @@ body {
 }
 .heading-list {
   color: var(--black-color);
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 /* секция студия */
 .list {
   color: var(--black-color);
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 /* кнопка ховер фокус */
 button {
   color: var(--black-color);
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 .button:hover,
 .button:focus {
@@ -113,8 +101,6 @@ button {
   cursor: pointer;
 }
 .order {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -129,23 +115,19 @@ button {
 /* имена Команды страница 1 */
 .names {
   color: var(--black-color);
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
-  letter-spacing: 0.03em;
 }
-.address-footer {
-  color: var(--black-color);
-  font-family: "Roboto";
-  font-style: normal;
+.paragraph {
+  color: var(--grey-color);
+  font-size: 16px;
+  line-height: 1.18;
 }
+
 /* елементы-карточки */
 .element {
   color: var(--black-color);
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -164,6 +146,7 @@ button {
 }
 .address {
   color: var(--grey-color);
+  text-decoration: none;
   font-style: normal;
 }
 .address-header:focus,
@@ -173,21 +156,22 @@ button {
 
 .address-header {
   color: var(--grey-color);
-  font-family: "Roboto";
-  font-style: normal;
+  text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+
+/* футер */
 .location {
   color: var(--white-color);
-  font-style: normal;
   margin-bottom: 0;
+  font-style: normal;
 }
-/* футер */
+
 .footer {
-  background: #2f303a;
+  background: var(--background-color);
 }
 /* скрытый заголовок */
 .hidden {
