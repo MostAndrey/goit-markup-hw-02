@@ -9,32 +9,43 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css"
+      integrity="sha512-Y0MM+V6ymRKN2zStTqzQ227DWhhp4Mzdo6gnlRnuaNCbc+YN/ZH0sBCLTM4M0oSy9c9VKiCvd4Jk44aCLrNS5Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link href="./css/styles.css" rel="stylesheet" />
   </head>
   <body>
     <!--шапка сайта-->
-    <header>
-      <nav>
+    <header class="page-header">
+      <div class="container main-navigation">
         <a class="logo" href="./index.html"><span>Web</span>Studio</a>
-        <ul>
-          <li><a class="nav current" href="#">Студия</a></li>
-          <li><a class="nav" href="./portfolio.html">Портфолио</a></li>
-          <li><a class="nav" href="#">Контакты</a></li>
-        </ul>
-      </nav>
+        <nav class="main-navigation">
+          <ul class="site-navigation">
+            <li class="item"><a class="nav current" href="#">Студия</a></li>
+            <li class="item">
+              <a class="nav" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="item"><a class="nav" href="#">Контакты</a></li>
+          </ul>
+        </nav>
 
-      <ul>
-        <li>
-          <a class="address-header" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a class="address-header" href="tel:+380961111111"
-            >+38 096 111 11 11</a
-          >
-        </li>
-      </ul>
+        <ul class="auth-navigation">
+          <li class="item">
+            <a class="address-header" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="item">
+            <a class="address-header" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
     </header>
     <!--Главный-->
     <main>
