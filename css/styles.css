@@ -120,6 +120,7 @@ body {
   color: var(--white-color);
   background-color: var(--background-color);
 
+  margin-bottom: 30px;
   margin-top: 0;
   font-weight: 900;
   font-size: 44px;
@@ -131,6 +132,7 @@ body {
 .section-hero {
   background-color: var(--background-color);
   text-align: center;
+  padding: 200px 0 200px;
 }
 .heading-list {
   color: var(--black-color);
@@ -152,10 +154,14 @@ body {
 /* кнопка ховер фокус */
 button {
   color: var(--black-color);
+
   font-family: inherit;
+  border: 0;
+  padding: 10px 32px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+
   cursor: pointer;
 }
 .button:hover,
@@ -167,14 +173,14 @@ button {
   color: #ffffff;
   background-color: var(--blue-color);
 
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
+  display: inline-block;
+  text-align: center;
 
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
+  border-radius: 4px;
 
   cursor: pointer;
 }
