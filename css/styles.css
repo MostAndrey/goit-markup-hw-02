@@ -174,32 +174,46 @@ body {
   margin-bottom: 10px;
 }
 /* What are we doing */
-.heading-list {
+.heading-title {
   color: var(--black-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   margin: 0px;
+
+  text-align: center;
 }
 .img-saction {
-  width: 1200;
+  width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
 }
-/* .img-container {
-  display: flex;
-  flex-wrap: wrap;
-} */
-.img-list {
+
+.images .images-list {
   width: 370px;
+  height: 294px;
+  margin-top: 50px;
+  margin-left: 30px;
 }
 .images {
   display: flex;
+
+  padding-left: 0px;
+
+  padding-bottom: 94px;
 }
-.my-team {
+/* our team */
+.section-team {
   background-color: var(--section-color);
+}
+.header-team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16px;
+
+  color: var(--black-color);
 }
 /* кнопка ховер фокус */
 button {
