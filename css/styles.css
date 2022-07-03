@@ -199,9 +199,8 @@ body {
 }
 .images {
   display: flex;
-
+  margin: 0;
   padding-left: 0px;
-
   padding-bottom: 94px;
 }
 /* our team */
