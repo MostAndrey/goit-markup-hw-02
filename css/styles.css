@@ -293,14 +293,12 @@ button {
 .portfolio {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-
-  padding: 0;
+  /* justify-content: space-between; */
 }
 .portfolio-list {
-  margin-right: 30px;
-  margin-bottom: 30px;
   margin-top: 56px;
+  width: calc((100% - 60px) / 3);
+  margin-right: 30px;
 }
 .portfolio-list:nth-child(3n) {
   margin-right: 0;
