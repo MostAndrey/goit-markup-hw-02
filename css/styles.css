@@ -60,7 +60,7 @@ body {
 
 /* navigation */
 .container {
-  width: 1200px;
+  width: 1170px;
 
   padding-left: 15px;
   padding-right: 15px;
@@ -138,17 +138,11 @@ body {
 /* секция студия */
 .secondary-section {
   text-align: inherit;
-
-  padding-top: 94px;
   padding-bottom: 94px;
+  padding-top: 94px;
 }
-.flex-container {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-
-  margin-left: auto;
-  margin-right: auto;
+.flex-container .container {
+  padding-bottom: 94px;
 }
 
 .flex-menu {
@@ -175,6 +169,8 @@ body {
 }
 /* What are we doing */
 .heading-title {
+  width: 1170px;
+
   color: var(--black-color);
   font-weight: 700;
   font-size: 36px;
@@ -184,7 +180,7 @@ body {
   text-align: center;
 }
 .img-saction {
-  width: 1230px;
+  width: 1170px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -193,7 +189,6 @@ body {
 .images {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
 
   margin: 0;
   padding-left: 0px;
@@ -280,7 +275,7 @@ button {
 
 /* button-container portfolio */
 .button-container {
-  width: 1230px;
+  width: 1170px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -297,7 +292,7 @@ button {
 
 /* site list */
 .site-list {
-  width: 1230px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
 
