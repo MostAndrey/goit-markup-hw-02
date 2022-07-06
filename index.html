@@ -21,7 +21,7 @@
   <body>
     <!--шапка сайта-->
     <header class="page-header">
-      <div class="container main-navigation">
+      <div class="main-navigation container">
         <a class="logo" href="./index.html"><span>Web</span>Studio</a>
         <nav class="main-navigation">
           <ul class="site-navigation">
@@ -58,7 +58,7 @@
       </section>
 
       <section class="secondary-section">
-        <div class="flex-container">
+        <div class="flex-container container">
           <!-- <h2 class="hidden">Все виды услуг</h2> -->
           <ul class="flex-menu">
             <li class="flex-item">
@@ -96,7 +96,7 @@
       </section>
       <!--Чем мы занимаемся-->
       <section class="img-saction">
-        <div class="images-container">
+        <div class="images-container container">
           <h2 class="heading-title">Чем мы занимаемся</h2>
           <ul class="images">
             <li class="images-list">
@@ -119,8 +119,8 @@
       <section class="section-team">
         <h2 class="header-team">Наша команда</h2>
 
-        <ul>
-          <li>
+        <ul class="card-team container">
+          <li class="card-list">
             <a
               ><img
                 src="./images/studio/igordemyanenko.jpg"
@@ -132,7 +132,7 @@
             </a>
           </li>
 
-          <li>
+          <li class="card-list">
             <a
               ><img
                 src="./images/studio/olgarepina.jpg"
@@ -144,7 +144,7 @@
             </a>
           </li>
 
-          <li>
+          <li class="card-list">
             <a
               ><img
                 src="./images/studio/nikolaytarasov.jpg"
@@ -156,7 +156,7 @@
             </a>
           </li>
 
-          <li>
+          <li class="card-list">
             <a
               ><img
                 src="./images/studio/mikhailermakov.jpg"
@@ -171,20 +171,24 @@
       </section>
       <!-- футер -->
       <footer class="footer">
-        <a class="logo-footer" href="./index.html">Web<span>Studio</span></a>
-        <address>
-          <ul>
-            <li><p class="location">г. Киев, пр-т Леси Украинки, 26</p></li>
-            <li>
-              <a class="address" href="mailto:info@example.com"
-                >info@example.com</a
-              >
-            </li>
-            <li>
-              <a class="address" href="tel:+380991111111">+38 099 111 11 11</a>
-            </li>
-          </ul>
-        </address>
+        <div class="footer-container container">
+          <a class="logo-footer" href="./index.html">Web<span>Studio</span></a>
+          <address>
+            <ul>
+              <li><p class="location">г. Киев, пр-т Леси Украинки, 26</p></li>
+              <li>
+                <a class="address" href="mailto:info@example.com"
+                  >info@example.com</a
+                >
+              </li>
+              <li>
+                <a class="address" href="tel:+380991111111"
+                  >+38 099 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
       </footer>
     </main>
   </body>
