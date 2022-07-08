@@ -60,7 +60,7 @@ body {
 
 /* navigation */
 .container {
-  width: 1170px;
+  width: 1200px;
 
   padding-left: 15px;
   padding-right: 15px;
@@ -136,7 +136,7 @@ body {
 }
 
 /* секция студия */
-.secondary-section {
+.secondary-section .container {
   text-align: inherit;
   padding-bottom: 94px;
   padding-top: 94px;
@@ -169,8 +169,6 @@ body {
 }
 /* What are we doing */
 .heading-title {
-  width: 1170px;
-
   color: var(--black-color);
   font-weight: 700;
   font-size: 36px;
@@ -180,11 +178,6 @@ body {
   text-align: center;
 }
 .img-saction {
-  width: 1170px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
 }
 .images {
   display: flex;
