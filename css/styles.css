@@ -6,6 +6,7 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
+  text-decoration: none;
 }
 
 :root {
@@ -35,6 +36,10 @@ h2,
 h3,
 p {
   margin: 0;
+}
+/* page-header */
+.page-header {
+  border-bottom: 1px solid #ececec;
 }
 /* Header Логотип WebStudio */
 .logo {
@@ -264,8 +269,8 @@ button {
   background: var(--blue-color);
 }
 .order {
-  color: #ffffff;
-  background-color: var(--blue-color);
+  padding: 10px 32px;
+  border-width: 0px;
 
   display: inline-block;
   text-align: center;
@@ -277,6 +282,8 @@ button {
   border-radius: 4px;
 
   cursor: pointer;
+  color: var(--white-color);
+  background-color: var(--blue-color);
 }
 /* portfolio-saction */
 .portfolio-saction {
@@ -294,6 +301,18 @@ button {
 
   margin-bottom: 50px;
 }
+
+.button-filter {
+  margin: 0;
+
+  margin-right: 8px;
+}
+
+/* images */
+.card-item {
+  display: flex;
+  flex-wrap: wrap;
+}
 .img {
   margin-right: 30px;
   margin-bottom: 30px;
@@ -307,22 +326,7 @@ img {
 .img:nth-last-child(-n + 3) {
   margin-bottom: 0;
 }
-.button-filter {
-  margin: 0;
 
-  margin-right: 8px;
-}
-
-/* images */
-.card-item {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.discription {
-  padding: 20px 24px;
-  border: 1px solid #eee;
-}
 .paragraph-pictures {
   color: var(--grey-color);
   font-size: 16px;
@@ -338,6 +342,11 @@ img {
   text-decoration: none;
 
   color: var(--black-color);
+}
+
+.discription {
+  padding: 20px 24px;
+  border: 1px solid #eee;
 }
 
 /* имена Команды страница 1 */
