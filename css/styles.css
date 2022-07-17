@@ -236,6 +236,8 @@ p {
   margin: 0;
 }
 .card-list {
+  flex-basis: calc(100% / 4 - 30px);
+
   margin-left: 30px;
   margin-top: 50px;
 
@@ -428,4 +430,10 @@ img {
 /* скрытый заголовок */
 .hidden {
   color: var(--footer-color);
+}
+
+.box {
+  box-sizing: border-box;
+  width: 370px;
+  border: #000000;
 }
